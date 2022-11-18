@@ -86,26 +86,26 @@ parsing.
 
 # TODO
 
-[x] >90% test coverage
-[ ] any(_) parser (parses any character in given string)
-[ ] anyExcept(_) parser (parses any character except those in given string)
-[ ] separatedBy(_, _) (parses input separated by given parser)
-[x] success() parser (always succeeds and passes back input)
-[x] fail() parser (always fails)
-[x] optional(parser)
-[ ] lookahead(_) parser (runs given parser but does not consume input)
-[ ] skipUntil(_) parser (keeps consuming input until given parser succeeds)
-[ ] regex(\_) parser
-[ ] more informative errors (e.g. show "partial success")
-[ ] mechanism for transforming parsed values
-[ ] a pattern / interface for creating "rules" and "grammars"
-[ ] localization / encoding concerns?
-[ ] logging / debugging utils?
-[ ] streaming capabilities (don't store entire input in memory)
-[ ] file organization
-[ ] examples
-[ ] docs
-[x] license
+- [x] > 90% test coverage
+- [ ] any(\_) parser (parses any character in given string)
+- [ ] anyExcept(\_) parser (parses any character except those in given string)
+- [ ] separatedBy(_, _) (parses input separated by given parser)
+- [x] success() parser (always succeeds and passes back input)
+- [x] fail() parser (always fails)
+- [x] optional(parser)
+- [ ] lookahead(\_) parser (runs given parser but does not consume input)
+- [ ] skipUntil(\_) parser (keeps consuming input until given parser succeeds)
+- [ ] regex(\_) parser
+- [ ] more informative errors (e.g. show "partial success")
+- [ ] mechanism for transforming parsed values
+- [ ] a pattern / interface for creating "rules" and "grammars"
+- [ ] localization / encoding concerns?
+- [ ] logging / debugging utils?
+- [ ] streaming capabilities (don't store entire input in memory)
+- [ ] file organization
+- [ ] examples
+- [ ] docs
+- [x] license
 
 # License
 
